@@ -87,7 +87,7 @@ while true; do
   echo "7) Nederlands"
   echo "8) Čeština"
   echo "9) Polski"
-  read -rp "Választás: " choice
+  read -rp "Choose one: " choice
   case $choice in
     1) LANG_FILE="lang/hu.lang"; break ;;
     2) LANG_FILE="lang/en.lang"; break ;;
