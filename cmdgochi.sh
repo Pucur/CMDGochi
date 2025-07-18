@@ -1,4 +1,5 @@
 #!/bin/bash
+export LC_ALL=C
 if [ "$EUID" -eq 0 ]; then
   echo "Ne rootként futtasd ezt a scriptet! Kérlek, indítsd normál felhasználóként."
   exit 1
