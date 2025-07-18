@@ -26,7 +26,7 @@ Whether you're a developer, sysadmin, or terminal enthusiast, CMDGochi offers a 
 - **ASCII art**: Charming pet visuals right in your terminal.
 - **Simple commands**: Easy-to-remember commands for feeding, playing, resting, and more.
 - **API integration**: Communicates with a backend server via RESTful API calls.
-- **Language support**: Ready for multilingual UI (currently English, Hungarian, German, France).
+- **Language support**: Ready for multilingual UI - Magyar, English, Deutsch, Français, Español, Italiano, Nederlands, Čeština, Polski
 - **Configurable API key**: Securely store and use your API credentials.
 
 ---
