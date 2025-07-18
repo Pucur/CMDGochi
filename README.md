@@ -41,31 +41,32 @@ Make sure your system has the following installed:
 - **curl** (for sending HTTP requests)
 - A **terminal with Unicode support** (to properly render ASCII art and special characters)
 
+  ### Dependencies
+Ubuntu/Debian:
+```bash
+sudo apt-get install jq curl git
+Fedora:
+```
+Arch Linux /SteamOS:
+```bash
+sudo pacman -S jq curl git
+```
+RedHat / CentOS:
+```bash
+sudo yum install jq jq curl git
+```
+Fedora:
+```bash
+sudo dnf install jq curl git
+```
+macOS (Homebrew):
+```bash
+brew install jq curl git
+```
+
 ### Clone the repository
 
 ```bash
 git clone https://github.com/Pucur/CMDGochi.git
 cd CMDGochi
-```
-### Dependencies
-Ubuntu/Debian:
-```bash
-sudo apt-get install jq curl
-Fedora:
-```
-Arch Linux /SteamOS:
-```bash
-sudo pacman -S jq curl
-```
-RedHat / CentOS:
-```bash
-sudo yum install jq jq curl
-```
-Fedora:
-```bash
-sudo dnf install jq curl
-```
-macOS (Homebrew):
-```bash
-brew install jq curl
 ```
