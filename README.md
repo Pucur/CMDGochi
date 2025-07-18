@@ -69,4 +69,5 @@ brew install jq curl git
 ```bash
 git clone https://github.com/Pucur/CMDGochi.git
 cd CMDGochi
+bash cmdgoshi.sh
 ```
