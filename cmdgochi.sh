@@ -4,7 +4,7 @@ if [ "$EUID" -eq 0 ]; then
   exit 1
 fi
 
-API_KEY_FILE="$HOME/.virtualpet_api_key"
+API_KEY_FILE=".virtualpet_api_key"
 API_URL="http://cmdgochi.mooo.com:5555"
 API_KEY=""
 LANG_CHOICE_FILE=".lang"
