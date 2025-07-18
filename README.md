@@ -21,6 +21,7 @@ Whether you're a developer, sysadmin, or terminal enthusiast, CMDGochi offers a 
 ## 🎯 Features
 
 - **Multi-pet management**: Create and switch between multiple pets.
+- **Choose your favorite animal breeds**: You can choose between 8 animals (cat,dog,parrot,hamster,rabbit,mouse,raccoon,badger)
 - **Real-time stats**: View age, hunger, happiness, energy, and health.
 - **ASCII art**: Charming pet visuals right in your terminal.
 - **Simple commands**: Easy-to-remember commands for feeding, playing, resting, and more.
