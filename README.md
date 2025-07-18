@@ -44,7 +44,7 @@ Make sure your system has the following installed:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/CMDGochi.git
+git clone https://github.com/Pucur/CMDGochi.git
 cd CMDGochi
 ```
 ### Dependencies
