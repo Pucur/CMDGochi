@@ -78,6 +78,7 @@ function choose_language() {
     else
 while true; do
   echo "Válassz nyelvet / Choose language / Sprache wählen:"
+  echo ""
   echo "1) Magyar"
   echo "2) English"
   echo "3) Deutsch"
@@ -87,6 +88,7 @@ while true; do
   echo "7) Nederlands"
   echo "8) Čeština"
   echo "9) Polski"
+  echo ""
   read -rp "Choose one: " choice
   case $choice in
     1) LANG_FILE="lang/hu.lang"; break ;;
@@ -171,16 +173,17 @@ function edit_api_key_menu() {
     while true; do
         logo
         echo
-        echo "====================== ${API_KEY_MENU_TITLE} ======================"
-        echo "|                                                            |"
-        echo "| ${API_KEY_MENU_CURRENT}${API_KEY:-Nincs beállítva}  |"
-        echo "|                                                            |"
-        echo "| ${API_KEY_MENU_OPTION_1}                                         |"
-        echo "| ${API_KEY_MENU_OPTION_2}                                  |"
-        echo "| ${API_KEY_MENU_OPTION_3}                                |"
-        echo "| ${API_KEY_MENU_OPTION_4}                                           |"
-        echo "| ${API_KEY_MENU_OPTION_5}                                       |"
-        echo "|____________________________________________________________|"
+        echo "${SETTINGS_TITLE}"
+        echo "|                                                               |"
+        printf "| %b\t|\n" "${API_KEY_MENU_CURRENT}${API_KEY:-${API_KEY_FILE_MISSING}}"
+        echo "|                                                               |"
+        printf "| 1) %b|\n" "${SETTINGS_MENU_1}"
+        printf "| 2) %b|\n" "${SETTINGS_MENU_2}"
+        printf "| 3) %b|\n" "${SETTINGS_MENU_3}"
+        printf "| 4) %b|\n" "${SETTINGS_MENU_4}"
+        printf "| 5) %b|\n" "${SETTINGS_MENU_5}"
+        printf "| 6) %b|\n" "${SETTINGS_MENU_6}"
+        echo "|_______________________________________________________________|"
         read -rp "${API_KEY_MENU_PROMPT}" choice
 
         case "$choice" in
@@ -218,6 +221,10 @@ function edit_api_key_menu() {
                 echo "${API_KEY_DELETED}"
                 ;;
             5)
+                rm -f "$LANG_CHOICE_FILE"
+                choose_language
+                ;;
+            6)
                 main_menu
                 ;;
             *)
@@ -654,7 +661,7 @@ function pet_menu() {
                 6)
                     echo -n "$CONFIRM_DELETE_LABEL: "
                     read -r CONFIRM
-                    if [[ "$CONFIRM" == "igen" ]]; then
+                    if [[ "$CONFIRM" == "yes" ]]; then
                         delete_pet "$PET_ID"
                         break
                     else
@@ -696,13 +703,14 @@ function main_menu() {
         logo
         echo ""
         echo "$MAIN_MENU_HEADER"
-        printf "| %-26s |\n" ""
-        printf "| 1) %-23s |\n" "$MENU_LOGIN"
-        printf "| 2) %-23s |\n" "$MENU_API_KEY"
-        printf "| 3) %-23s |\n" "$MENU_LEADERBOARD"
-        printf "| 4) %-23s |\n" "$MENU_ABOUT"
-        printf "| 5) %-23s |\n" "$MENU_EXIT"
-        echo "|____________________________|"
+        printf "| %-29s |\n" ""
+
+        printf "| 1) %b|\n" "$MENU_LOGIN"
+        printf "| 2) %b|\n" "$MENU_SETTINGS"
+        printf "| 3) %b|\n" "$MENU_LEADERBOARD"
+        printf "| 4) %b|\n" "$MENU_ABOUT"
+        printf "| 5) %b|\n" "$MENU_EXIT"
+        echo "|_______________________________|"
         echo ""
         read -rp "$CHOICE_LABEL (1-5): " main_choice
 

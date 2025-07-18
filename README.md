@@ -26,7 +26,7 @@ Whether you're a developer, sysadmin, or terminal enthusiast, CMDGochi offers a 
 - **ASCII art**: Charming pet visuals right in your terminal.
 - **Simple commands**: Easy-to-remember commands for feeding, playing, resting, and more.
 - **API integration**: Communicates with a backend server via RESTful API calls.
-- **Language support**: Ready for multilingual UI - Magyar, English, Deutsch, Français, Español, Italiano, Nederlands, Čeština, Polski
+- **Language support**: Ready for multilingual UI (currently English, Hungarian, German, France).
 - **Configurable API key**: Securely store and use your API credentials.
 
 ---
@@ -45,6 +45,7 @@ Make sure your system has the following installed:
 Ubuntu/Debian:
 ```bash
 sudo apt-get install jq curl git
+Fedora:
 ```
 Arch Linux /SteamOS:
 ```bash
