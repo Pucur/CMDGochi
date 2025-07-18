@@ -45,7 +45,6 @@ Make sure your system has the following installed:
 Ubuntu/Debian:
 ```bash
 sudo apt-get install jq curl git
-Fedora:
 ```
 Arch Linux /SteamOS:
 ```bash
