@@ -33,7 +33,7 @@ EOF
 check_for_updates() {
     logo
     VERSION_FILE=".version"
-    LOCAL_VERSION="0.0.1"
+    LOCAL_VERSION="1.0.0"
 
     if [[ -f "$VERSION_FILE" ]]; then
         LOCAL_VERSION=$(<"$VERSION_FILE")
