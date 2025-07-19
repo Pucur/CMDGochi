@@ -16,6 +16,13 @@ CMDGochi brings the nostalgic Tamagotchi experience to your command line interfa
 
 Whether you're a developer, sysadmin, or terminal enthusiast, CMDGochi offers a playful break from your day without leaving your console.
 
+<div align="center">
+
+![CMDGochi Screenshot](https://i.kek.sh/F6yjWUD0EXP.png)
+
+</div>
+
+
 ### 👤 Your Profile & Access
 - 🔑 **Get Your API Key:** Sign up and receive your unique API key to connect with your pets.
 - 🌐 **Language support**: Ready for multilingual UI (currently Magyar, English, Deutsch, Français, Español, Italiano, Nederlands, Čeština, Polski).
