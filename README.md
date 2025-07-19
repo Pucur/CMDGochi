@@ -1,10 +1,11 @@
-```plaintext
+<div style="text-align: center;">
+  <pre style="display: inline-block; text-align: left;">
  ▗▄▄▖▗▖  ▗▖▗▄▄▄   ▗▄▄▖ ▄▄▄  ▗▞▀▘▐▌   ▄ 
 ▐▌   ▐▛▚▞▜▌▐▌  █ ▐▌   █   █ ▝▚▄▖▐▌   ▄ 
 ▐▌   ▐▌  ▐▌▐▌  █ ▐▌▝▜▌▀▄▄▄▀     ▐▛▀▚▖█ 
 ▝▚▄▄▖▐▌  ▐▌▐▙▄▄▀ ▝▚▄▞▘          ▐▌ ▐▌█ 
-                         
-```
+  </pre>
+</div>
 
 **CMDGochi** is a lightweight, interactive command-line virtual pet client built entirely with **Bash**. Manage your digital pets easily from your terminal — create, feed, play with, and monitor your pets' stats in real-time.
 
