@@ -15,7 +15,43 @@
 CMDGochi brings the nostalgic Tamagotchi experience to your command line interface. Designed for simplicity and fun, CMDGochi lets you interact with multiple virtual pets, track their hunger, happiness, energy, and more — all using intuitive CLI commands.
 
 Whether you're a developer, sysadmin, or terminal enthusiast, CMDGochi offers a playful break from your day without leaving your console.
+👤 User Management
+🔑 API Key Registration: Users register and receive a unique API key to authenticate requests.
 
+🐕 Pet Creation & Management
+🐾 Create Pets: Users can create pets with customizable names (4–16 characters) and types (default: 🐱 cat).
+
+📋 Retrieve Pets: Users can fetch a list of their pets with real-time updated stats.
+
+🗑️ Delete Pets: Users can delete their pets.
+
+📊 Pet Status & Stats
+⏳ Dynamic Stats Update: Pet attributes such as 🍗 hunger, 😊 happiness, ⚡ energy, and ❤️ health automatically update based on elapsed time.
+
+🩹 Health Impact: Health decreases if hunger is maxed out, happiness and energy drop to zero, or the pet is sick 🤒 or needs a bath 🛁.
+
+🎂 Age and Leveling: Pets gain age (in days) and level up every 4 days, unless health drops to zero, which freezes age and level 🧊.
+
+🤧 Sickness & Healing: Pets can randomly become sick. Users can medicate 💊 sick pets to improve their health.
+
+🎮 Interactions & Actions
+🍎 Feed: Reduces hunger and increases happiness.
+
+🧸 Play: Increases happiness but decreases energy; requires minimum energy level.
+
+🛌 Sleep: Restores energy but increases hunger.
+
+❤️‍🩹 Heal: Cures sickness and improves health if the pet is sick.
+
+🛁 Bath: Resets the bathing need and improves health indirectly.
+
+💊 Medicate: Specific endpoint to treat sickness and restore health.
+
+🚿 Pet Hygiene
+🧼 Bathing Requirement: Pets need baths at least once per day; neglect reduces health.
+
+🏆 Statistics & Rankings
+🌟 Top Pets Endpoint: Returns top 10 oldest pets and aggregate statistics such as average level, age, health, happiness, and type distribution.
 ---
 
 ## 🎯 Features
