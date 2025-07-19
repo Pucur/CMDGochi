@@ -50,8 +50,8 @@ Whether you're a developer, sysadmin, or terminal enthusiast, CMDGochi offers a 
 - 🌟 **Top Pets:** See the top 10 oldest pets and get cool stats about levels, age, health, happiness, and types of all pets.
 
 ### 🖥️ **SERVER**
-This API is crafted with Flask and SQLite to offer a fun, simple way to care for your virtual pets and watch them grow.
-The API Server run on cmdgochi.mooo.com:5555 domain
+This API is crafted with Flask and SQLite to offer a fun, simple way to care for your virtual pets and watch them grow.<br>
+The API Server run on cmdgochi.mooo.com:5555 domain<br>
 For your privacy and security, this server does not store, collect, or retain any sensitive data whatsoever.
 
 ---
