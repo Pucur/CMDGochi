@@ -10,26 +10,45 @@
 
 ---
 
-## 🚀 Overview
+## 🐾 Overview 🐾
 
 CMDGochi brings the nostalgic Tamagotchi experience to your command line interface. Designed for simplicity and fun, CMDGochi lets you interact with multiple virtual pets, track their hunger, happiness, energy, and more — all using intuitive CLI commands.
 
 Whether you're a developer, sysadmin, or terminal enthusiast, CMDGochi offers a playful break from your day without leaving your console.
 
+### 👤 Your Profile & Access
+- 🔑 **Get Your API Key:** Sign up and receive your unique API key to connect with your pets.
+- 🌐 **Language support**: Ready for multilingual UI (currently Magyar, English, Deutsch, Français, Español, Italiano, Nederlands, Čeština, Polski).
+
+### 🐕 Meet Your Pets
+- 🐾 **Create New Pets:** Give your pets cute names (4–16 characters) and pick their type. You can choose between 8 animals (pet types: cat 🐱, dog 🐶, parrot 🦜, hamster 🐹, rabbit 🐰, mouse 🐭, raccoon 🦝, badger 🦡)
+- 📋 **See All Your Pets:** Check on your furry friends’ real-time stats whenever you want.
+- 🦝 **ASCII art**: Charming pet visuals right in your terminal.
+- 🗑️ **Say Goodbye:** Delete a pet if it’s time to part ways.
+
+### 📊 Pet Well beeing
+- ⏳ **Live Pet Stats:** Hunger 🍗, happiness 😊, energy ⚡, and health ❤️ update dynamically as time passes.
+- 🩹 **Watch Their Health:** If hunger maxes out, happiness and energy drop, or your pet gets sick 🤒 or needs a bath 🛁, their health declines.
+- 🎂 **Growing Up:** Pets get older and level up every 4 days — unless they’re feeling really down (health 0), then their growth pauses 🧊.
+
+### 🎮 Fun & Care Actions
+- 🍎 **Feed Them:** Reduce hunger and boost happiness.
+- 🧸 **Play Together:** Lift their mood but watch their energy; too tired means no playtime.
+- 🛌 **Nap Time:** Recharge energy but be ready for a bit more hunger.
+- ❤️‍🩹 **Heal Up:** Cure sickness and bring back health.
+- 🛁 **Give a Bath:** Keep them clean and healthy. — skipping it hurts their health.
+- 💊 **Give Medicine:** Treat sickness and improve wellbeing. Pets can randomly get sick, but you can nurse them back with medicine 🤧.
+
+### 🏆 Pet Hall of Fame 🏆
+- 🌟 **Top Pets:** See the top 10 oldest pets and get cool stats about levels, age, health, happiness, and types of all pets.
+
+### 🖥️ **SERVER**
+This API is crafted with Flask and SQLite to offer a fun, simple way to care for your virtual pets and watch them grow.
+The API Server run on cmdgochi.mooo.com:5555 domain
+
 ---
 
-## 🎯 Features
 
-- **Multi-pet management**: Create and switch between multiple pets.
-- **Choose your favorite animal breeds**: You can choose between 8 animals (cat,dog,parrot,hamster,rabbit,mouse,raccoon,badger)
-- **Real-time stats**: View age, hunger, happiness, energy, and health.
-- **ASCII art**: Charming pet visuals right in your terminal.
-- **Simple commands**: Easy-to-remember commands for feeding, playing, resting, and more.
-- **API integration**: Communicates with a backend server via RESTful API calls.
-- **Language support**: Ready for multilingual UI (currently English, Hungarian, German, France).
-- **Configurable API key**: Securely store and use your API credentials.
-
----
 
 ## 📥 Installation
 
