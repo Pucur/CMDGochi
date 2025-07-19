@@ -42,7 +42,6 @@ Whether you're a developer, sysadmin, or terminal enthusiast, CMDGochi offers a 
 - 🍎 **Feed Them:** Reduce hunger and boost happiness.
 - 🧸 **Play Together:** Lift their mood but watch their energy; too tired means no playtime.
 - 🛌 **Nap Time:** Recharge energy but be ready for a bit more hunger.
-- ❤️‍🩹 **Heal Up:** Cure sickness and bring back health.
 - 🛁 **Give a Bath:** Keep them clean and healthy. — skipping it hurts their health.
 - 💊 **Give Medicine:** Treat sickness and improve wellbeing. Pets can randomly get sick, but you can nurse them back with medicine 🤧.
 
