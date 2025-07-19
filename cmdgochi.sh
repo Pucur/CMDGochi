@@ -1,5 +1,6 @@
 #!/bin/bash
 export LC_ALL=C
+cd "$(dirname "$0")"
 if [ "$EUID" -eq 0 ]; then
   echo "Don't run this script as root! Please start it as a regular user."
   exit 1
