@@ -53,7 +53,7 @@ check_for_updates() {
         echo "$UPDATING_CLIENT"
 
         echo "$REMOTE_VERSION" > "$VERSION_FILE"
-
+        git reset --hard
         git pull origin main
 
         echo "$UPDATE_DONE"
