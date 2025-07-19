@@ -52,6 +52,7 @@ Whether you're a developer, sysadmin, or terminal enthusiast, CMDGochi offers a 
 ### 🖥️ **SERVER**
 This API is crafted with Flask and SQLite to offer a fun, simple way to care for your virtual pets and watch them grow.
 The API Server run on cmdgochi.mooo.com:5555 domain
+For your privacy and security, this server does not store, collect, or retain any sensitive data whatsoever.
 
 ---
 
