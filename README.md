@@ -52,7 +52,7 @@ The API Server run on cmdgochi.mooo.com:5555 domain
 
 ## 📥 Installation
 
-### Prerequisites
+### 📋 Prerequisites
 
 Make sure your system has the following installed:
 
@@ -60,7 +60,7 @@ Make sure your system has the following installed:
 - **curl** (for sending HTTP requests)
 - A **terminal with Unicode support** (to properly render ASCII art and special characters)
 
-  ### Dependencies
+  ### 📦 Dependencies
 Ubuntu/Debian:
 ```bash
 sudo apt-get install jq curl git
@@ -82,7 +82,7 @@ macOS (Homebrew):
 brew install jq curl git
 ```
 
-### Clone the repository
+### 💾 Clone the repository
 
 ```bash
 git clone https://github.com/Pucur/CMDGochi.git
