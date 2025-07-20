@@ -79,7 +79,7 @@ sudo pacman -S jq curl git
 ```
 RedHat / CentOS:
 ```bash
-sudo yum install jq jq curl git
+sudo yum install jq curl git
 ```
 Fedora:
 ```bash
