@@ -55,9 +55,6 @@ The API Server run on cmdgochi.mooo.com:5555 domain<br>
 For your privacy and security, this server does not store, collect, or retain any sensitive data whatsoever.
 
 ---
-
-
-
 ## 📥 Installation
 
 ### 📋 Prerequisites
@@ -97,3 +94,15 @@ git clone https://github.com/Pucur/CMDGochi.git
 cd CMDGochi
 bash cmdgochi.sh
 ```
+### 🚧 Upcoming Features
+
+CMDGochi is actively evolving! Here are some exciting features planned for future releases:
+
+- 🧠 **Learning New Tricks**  
+  Your pets will be able to learn and perform new tricks over time — if you treat them well!
+
+- 💍 **Marriage System**  
+  Allow your pets to bond and get married, unlocking special interactions and stat bonuses.
+
+- 🎞️ **Animated Pets**  
+  Bring your virtual friends to life with ASCII-style animations for actions like walking, playing, or sleeping.
